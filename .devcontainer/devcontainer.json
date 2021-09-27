@@ -1,0 +1,21 @@
+{
+    "name": "rust-env",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "vscode",
+    "workspaceFolder": "/workspace",
+    "overrideCommand": true,
+    "extensions": [
+        "matklad.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "serayuzgur.crates",
+        "vadimcn.vscode-lldb"
+    ],
+    "settings": {
+        // General settings
+        "files.eol": "\n",
+        // Rust settings
+        "rust-analyzer.checkOnSave.command": "clippy"
+    }
+}
