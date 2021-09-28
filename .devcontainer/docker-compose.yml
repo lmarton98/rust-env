@@ -10,12 +10,8 @@ services:
       - $HOME/.ssh/id_rsa:/root/.ssh/id_rsa:ro
       - $HOME/.gitconfig:/root/.gitconfig
       - rust-bash-history:/root/.history
-      - rust-vscode-extensions:/root/.vscode-server/extensions
-      - rust-vscode-extensions-insiders:/root/.vscode-server-insiders/extensions
     working_dir: /workspace
     entrypoint: /bin/bash
 
 volumes:
   rust-bash-history:
-  rust-vscode-extensions:
-  rust-vscode-extensions-insiders:
