@@ -40,14 +40,14 @@ Rust (rustup, cargo, etc.) is not required on the host, that is the whole point 
 - Persistent shell command history
 - VIM for terminal based workflow
 
-## Costumization
+## Customization
 
 Additional generic (not Rust development specific) extensions can be specified in the [VSCode User Settings](https://code.visualstudio.com/docs/remote/containers#_always-installed-extensions). These are my recommended "always install" extensions:
 [Gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens),
 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph),
 [Trailing Spaces](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
 ```json
-"remote.containers.defaultExtensions": [
+"dev.containers.defaultExtensions": [
    "eamodio.gitlens",
    "mhutchie.git-graph",
    "shardulm94.trailing-spaces",
